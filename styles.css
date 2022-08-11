@@ -106,7 +106,7 @@ button {
     justify-content: center;
     align-items: center;
     padding-top: 50px;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
 
 .second img {
@@ -139,4 +139,23 @@ button {
     font-weight: 900;
     color: #1F2937;
     margin-bottom: 50px;
+}
+
+
+.third {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.third .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.third .author {
+    text-align: end;
+    font-size: 30px;
+    font-weight: 700;
 }
