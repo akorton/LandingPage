@@ -80,7 +80,7 @@ a {
 
 .hero .btn{
     border: 0px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 button {
@@ -92,12 +92,14 @@ button {
     color: white;
     font-size: 16px;
     font-weight: 600;
+    border-style: solid;    
 }
 
 .hero .main-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 10px;
 }
 
 .second {
@@ -159,3 +161,39 @@ button {
     font-size: 30px;
     font-weight: 700;
 }
+
+
+.fourth {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.fourth .content {
+    background-color: #3882F6;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fourth .content .text .title {
+    color: #F9FAF8;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.fourth .content .text .secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.fourth .content button {
+    border-color: #F9FAF8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
