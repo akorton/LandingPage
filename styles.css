@@ -7,8 +7,8 @@ body {
 .second,
 .third,
 .fourth {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .first,
@@ -17,7 +17,7 @@ body {
 }
 
 .first {
-    padding-top: 16px;
+    padding-top: 30px;
 }
 
 .third {
@@ -43,11 +43,14 @@ body {
 }
 
 ul {
-    display: flex;
-    gap: 30px;
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.header ul{
+    display: flex;
+    gap: 30px;
 }
 
 
@@ -57,8 +60,10 @@ a {
 }
 
 .hero img {
-    height: auto;
-    width: 800px;
+    height: 250px;
+    width: 1000px;
+    text-align: center;
+    background-color: grey;
 }
 
 .hero {
@@ -93,4 +98,44 @@ button {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.second img {
+    height: 200px;
+    width: 200px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #3882F6;
+}
+
+.second ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.second li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .second p {
+    text-align: center;
+ }
+
+.second .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
 }
