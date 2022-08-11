@@ -1,6 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: "roboto", sans-serif;
+}
+.first,
+.second,
+.third,
+.fourth {
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .first,
@@ -10,4 +18,33 @@ body {
 
 .third {
     background-color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.links.header {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+a {
+    text-decoration: none;
 }
